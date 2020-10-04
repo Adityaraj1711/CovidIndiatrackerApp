@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-
+apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.1"
@@ -33,5 +33,14 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
+    
+    // material design
+    implementation 'com.google.android.material:material:1.2.0'
+    // for schimmer layout while loading
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    // for api operations
+    implementation 'com.android.volley:volley:1.1.1'
+    // picasso for image loading and showing it on UI
+    implementation "com.squareup.picasso:picasso:2.5.2"
+    implementation 'com.miguelcatalan:materialsearchview:1.4.0'
 }
