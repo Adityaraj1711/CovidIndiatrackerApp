@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Covid India Tracker</string>
+    <string name="header_title">Covid 19 India Tracker</string>
 </resources>
