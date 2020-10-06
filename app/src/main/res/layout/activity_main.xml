@@ -313,7 +313,11 @@
                             </androidx.cardview.widget.CardView>
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
-                        <include layout="@layout/shimmer_homepage"/>
+                        <include
+                            layout="@layout/shimmer_homepage"
+                            android:id="@+id/shimmer_homepage"
+                            android:visibility="invisible"
+                            />
 
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
