@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_home"
+        app:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Symptoms of Covid"
+        android:id="@+id/symptoms"/>
+
+    <item
+        android:title="About corona"
+        android:id="@+id/about_corona"/>
+
+    <item
+        android:title="About App"
+        android:id="@+id/about_app"/>
+
+</menu>

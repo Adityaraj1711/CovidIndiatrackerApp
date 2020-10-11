@@ -158,8 +158,6 @@ class MainActivity : AppCompatActivity() {
         jsonObjectRequest.setRetryPolicy(retryPolicy)
         val requestQueue: RequestQueue = Volley.newRequestQueue(this@MainActivity)
         requestQueue.add(jsonObjectRequest)
-
-
     }
 
     private fun getStateListActivity() {
