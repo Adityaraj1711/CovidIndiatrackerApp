@@ -108,7 +108,7 @@
                                     android:textStyle="bold" />
 
                                 <TextView
-                                    android:id="@+id/dist_daily_confirm_cases"
+                                    android:id="@+id/state_daily_confirm_cases"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginBottom="5dp"
@@ -119,7 +119,7 @@
                                     android:textStyle="bold" />
 
                                 <TextView
-                                    android:id="@+id/dist_total_confirm_cases"
+                                    android:id="@+id/state_total_confirm_cases"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:text="3000"
@@ -162,7 +162,7 @@
 
 
                                 <TextView
-                                    android:id="@+id/dist_total_active_cases"
+                                    android:id="@+id/state_total_active_cases"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
@@ -215,7 +215,7 @@
                                     android:textStyle="bold" />
 
                                 <TextView
-                                    android:id="@+id/dist_daily_recover_cases"
+                                    android:id="@+id/state_daily_recover_cases"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginBottom="5dp"
@@ -226,7 +226,7 @@
                                     android:textStyle="bold" />
 
                                 <TextView
-                                    android:id="@+id/dist_total_recover_cases"
+                                    android:id="@+id/state_total_recover_cases"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:text="3000"
@@ -268,7 +268,7 @@
                                     android:textStyle="bold" />
 
                                 <TextView
-                                    android:id="@+id/dist_daily_death_cases"
+                                    android:id="@+id/state_daily_death_cases"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginBottom="5dp"
@@ -279,7 +279,7 @@
                                     android:textStyle="bold" />
 
                                 <TextView
-                                    android:id="@+id/dist_total_death_cases"
+                                    android:id="@+id/state_total_death_cases"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:text="3000"
@@ -311,7 +311,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/dist_list_recycler_view" />
+            android:id="@+id/state_list_recycler_view" />
     </LinearLayout>
 
 
